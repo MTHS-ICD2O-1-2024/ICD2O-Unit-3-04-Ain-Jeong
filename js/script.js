@@ -20,5 +20,5 @@ function convertFahrenheitToCelsius() {
 
   // output
   document.getElementById("answer").innerHTML =
-    temperatureInFahrenheit + "°F = " + temperatureInCelsius.toFixed(3) + "°C"
+    temperatureInFahrenheit + "°F is equivalent to " + temperatureInCelsius.toFixed(3) + "°C"
 }
